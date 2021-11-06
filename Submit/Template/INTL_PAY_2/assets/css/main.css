@@ -1,0 +1,292 @@
+body {
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+    color: #666;
+    background: #fff;
+    _background-image: url(about:blank);
+    _background-attachment: fixed;
+}
+
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.w {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.order {
+    position: relative;
+}
+
+.clearfix {
+}
+
+.clearfix {
+    display: block;
+}
+
+.clearfix {
+    display: inline-table;
+}
+
+.order.order-init .o-left {
+    padding-left: 0;
+    transition: all .15s ease-in-out;
+}
+
+.order .o-left {
+    float: left;
+    width: 640px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 102px;
+}
+
+.order .o-title {
+    line-height: 26px;
+    height: 26px;
+    overflow: hidden;
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+}
+
+h2, h3 {
+    font-size: 14px;
+}
+
+.order.order-init.order-init-oldUser-noQrcode .o-tips {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.order.order-init .o-tips {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+.order .o-tips {
+    line-height: 20px;
+    height: 20px;
+}
+
+.order .o-right {
+    float: right;
+    /*
+    width: 190px;*/
+    padding-top: 32px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.order .o-price {
+    text-align: right;
+    line-height: 26px;
+}
+.order .o-price em {
+    vertical-align: bottom;
+}
+
+em {
+    font-style: normal;
+}
+
+.order .o-price strong {
+    font-size: 18px;
+    vertical-align: bottom;
+    color: #e31613;
+    margin: 0 3px;
+}
+.order .o-list {
+    display: none;
+    padding: 12px 0 25px 0;
+    margin: 0 30px;
+    clear: both;
+    border-top: 1px solid #ddd;
+}
+.payment {
+    background-color: #fff;
+    padding: 12px 30px;
+    box-shadow: 0 6px 32px rgba(0,0,0,.13);
+}
+
+.p-w-bd, .pay-wxpay {
+    zoom: 1;
+}
+
+.p-w-bd:after, .pay-wxpay:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.p-w-hd {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: "Microsoft Yahei";
+}
+
+.p-w-bd {
+    padding-left: 130px;
+    margin-bottom: 30px;
+}
+
+.font-red {
+    color: #e31613;
+}
+.p-w-box {
+    float: left;
+    width: 300px;
+}
+.pw-box-hd {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    width: 298px;
+    height: 298px;
+}
+.pw-box-hd img {
+    width: 298px;
+    height: 298px;
+    background: url(../img/loading.gif) center center no-repeat;
+}
+
+
+img {
+    vertical-align: middle;
+}
+
+.pw-box-ft-wxpay {
+    height: 44px;
+    padding: 8px 0 8px 125px;
+    background: #2ca43a url(../img/icon-red_weixin.png) 50px 8px no-repeat;/*ff7674*/
+}
+
+.ac_coupon-wrap {
+    height: 0;
+    padding-top: 15.16%;
+    position: relative;
+}
+
+	
+
+.pw-box-ft-alipay {
+    height: 44px;
+    padding-top: 8px;
+    text-align: center;
+    background: #2196F3;
+}
+
+.pw-box-ft-wxpay p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.pw-box-ft-alipay p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.p-w-sidebar-wxpay {
+    float: left;
+    width: 379px;
+    height: 421px;
+    padding-left: 50px;
+    margin-top: -20px;
+    background: url(../img/wxpay-sys.png) 50px 0 no-repeat;
+}
+
+.p-w-sidebar-alipay {
+    float: left;
+    width: 379px;
+    height: 450px;
+    padding-left: 50px;
+    margin-top: -20px;
+    background: url(../img/alipay-sys.png) 50px 0 no-repeat;
+}
+
+.p-w-sidebar-qqpay {
+    float: left;
+    width: 379px;
+    height: 421px;
+    padding-left: 50px;
+    margin-top: -20px;
+    background: url(../img/qqpay-sys.png) 50px 0 no-repeat;
+}
+
+.payment-change .pc-wrap {
+    display: block;
+    height: 60px;
+    line-height: 56px;
+    padding: 0 20px;
+    transition: all .1s;
+}
+
+
+a {
+    color: #67a4ff;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+.payment-change .pc-wrap .pc-w-arrow-left {
+    float: left;
+    margin-right: 15px;
+}
+
+
+.payment-change .pc-wrap .pc-w-arrow-left, .payment-change .pc-wrap .pc-w-arrow-right {
+    float: right;
+    font-family: "\5b8b\4f53";
+    font-style: normal;
+    font-size: 22px;
+    width: 20px;
+    text-align: center;
+    color: #2fa1dd;
+}
+
+.payment-change .pc-wrap strong {
+    color: #67a4ff;
+    margin-right: 30px;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+}
+.p-footer {
+    background-color: #fff;
+}
+
+.p-footer .pf-wrap {
+    padding: 18px 0;
+    border-top: 1px solid #ddd;
+}
+.p-footer .pf-line {
+    line-height: 20px;
+    text-align: center;
+}
+.p-footer .pf-line .pf-l-copyright {
+    margin-right: 40px;
+}
+.ml40 {
+    margin-left: 40px;
+}
+
+
